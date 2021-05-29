@@ -1,0 +1,4 @@
+# Lambda functions
+
+`Lambda` is simply a nameless one-lined function that can be defined inside of other expressions. We use `lambda` because regular functions that we define with the `def` keyword can't be placed inside of larger expressions, for example they can't be defined inside the parentheses of a function call.
+The keyword `lambda` followed by some number of arguments all separated by commas without parentheses and then a colon, followed by whatever we want the return value to be. So there are two main things to know here. First of all we don't need to use the return keyword with `lambdas`. Whatever comes after the colon will be returned automatically. And secondly the function body of a `lambda` is only allowed to be one statement long. 
